@@ -10,7 +10,7 @@ int main(void)
 	char str[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int count, sz;
 
-	sz = sizeof(str)*4 / sizeof(int);
+	sz = sizeof(str) * 4 / sizeof(int);
 	for (count = 0; count < sz; count++)
 	{
 		_putchar(str[count]);
